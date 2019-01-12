@@ -1,0 +1,255 @@
+.buttons {
+  background-color: #8098C6;
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Open Sans,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid #8098C6;
+  border-radius: 18px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 32px;
+  padding: 0 24px; }
+
+.form-group {
+  font-family: Titillium Web, sans-serif; }
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+#cookie-law {
+  font-family: Titillium Web, sans-serif;
+  color: white;
+  background-color: black;
+  border-radius: 22px;
+  padding-left: 42px;
+  padding-bottom: 3px;
+  padding-top: 3px; }
+
+#close-cookie-banner {
+  margin-top: 1%;
+  margin-bottom: 5%;
+  background-color: red;
+  padding: 5px;
+  border-radius: 13px;
+  color: white; }
+
+#j_tron_main {
+  background-color: transparent;
+  min-width: 100%;
+  padding: 0;
+  margin-top: -10%; }
+
+#overlay-text-top-main-page {
+  position: relative;
+  z-index: 1;
+  margin-top: -12%;
+  margin-left: 3%;
+  margin-right: 3%; }
+
+#overlay-text-bottom-main-page {
+  position: relative;
+  margin-top: -25%;
+  margin-left: -50%; }
+
+.h-col {
+  margin-top: 7%; }
+
+h1 {
+  font-family: Titillium Web, sans-serif;
+  font-weight: 600;
+  color: black; }
+
+h2 {
+  font-family: Titillium Web, sans-serif;
+  font-weight: 400;
+  color: #8098C6; }
+
+article {
+  font-family: Titillium Web, sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  text-align: justify;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-indent: 15px; }
+
+#ask_button_div {
+  margin-top: 10%;
+  margin-bottom: 12%; }
+
+.bg-transparent {
+  background-color: #DDDDDF !important; }
+
+.navbar {
+  background-color: #DDDDDF; }
+
+.navbar-light {
+  background-color: #DDDDDF; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-family: Titillium Web, sans-serif;
+  font-weight: 400;
+  font-size: 20px; }
+
+a:active {
+  color: #000; }
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  font-weight: 400; }
+
+.navbar-light .navbar-text {
+  font-family: Titillium Web, sans-serif;
+  font-weight: 400; }
+
+.navbar-toggler:focus {
+  outline: none; }
+
+.navbar-light .navbar-toggler {
+  border-color: white; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+#vantageH {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 15%; }
+
+#vantageP {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 5px; }
+
+#hosting {
+  font-size: 11px; }
+
+@media screen and (max-width: 768px) {
+  #vantageP {
+    margin-left: 9%; } }
+
+.nav-link {
+  white-space: nowrap; }
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: transparent;
+  font-family: Titillium Web, sans-serif; }
+
+.list-inline-item a {
+  color: black;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px; }
+
+.list-inline {
+  padding-left: unset; }
+
+#dedicated-ctx {
+  background-image: url("/images/everydaydns.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed; }
+
+#web-development {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.shadow-wrapper-web-dev {
+  border-radius: 3px;
+  padding-right: 5px;
+  position: relative;
+  display: block;
+  max-width: 446px;
+  vertical-align: top;
+  background: #fff;
+  box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }
+
+.shadow-wrapper-web-dev:hover {
+  box-shadow: 2px 2px 6px 0 #294661; }
+
+#j_tron_pedia {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: url("/images/1770.jpg");
+  background-position: center;
+  background-size: cover; }
+
+#dns {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.card-subtitle {
+  text-align: left;
+  margin-top: 7px;
+  margin-left: 5px; }
+
+.card {
+  width: 100%; }
+
+.shadow-wrapper {
+  border-radius: 3px;
+  padding-right: 5px;
+  position: relative;
+  display: block;
+  max-width: 575px;
+  height: 673px;
+  vertical-align: top;
+  background: #fff;
+  box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }
+
+.shadow-wrapper:hover {
+  box-shadow: 2px 2px 6px 0 #294661; }
+
+#shadow-wrapper-center {
+  border-radius: 2px;
+  padding-right: 5px;
+  position: relative;
+  display: block;
+  max-width: 575px;
+  height: 748px;
+  vertical-align: top;
+  background: #fff;
+  box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }
+
+#shadow-wrapper-center:hover {
+  box-shadow: 2px 2px 6px 0 #294661; }
+
+.cardBtn {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+@media screen and (min-width: 769px) {
+  #bestValue {
+    margin-top: -15%; } }
+
+address {
+  font-family: Titillium Web, sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
