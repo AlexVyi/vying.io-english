@@ -1,88 +1,95 @@
-{{> nav-vyipedia}}
-<div class="container" id="vyipedia">
-    <div class="row" style="margin-top: 5%">
-        <div class="col-lg-12 col-sm-12">
-            <h1>Ce este DNS-UL?</h1>
-            <article>
-                Dns-ul este cartea de telefon a internetului.
-                Fiecare obiect conectat la internet are atasat un numar obligatoriu denumit ip(imediat explicatia), cu ajutorul caruia se identifica in retea.
-                Oamenii acceseaza informatii online prin intermediul numelor de domenii, spre exemplu vying.ro, sau zf.ro, iar apoi browserele de internet
-                acceseaza informatia prin intermediul protocolului de internet(IP).
-                Dns-ul(denumit si forward dns) elimina nevoia de a retine acele numere, traducandu-le in diverse denumiri(numele de domenii), sau, dupa caz, in alte ip-uri.
-                Sunt enorm de multe de explicat vis-a-vis de DNS insa in mare, speram ca ati inteles ideea.
-            </article>
-            <div class="text-center">
-                <img src="/images/dnsbook.jpg" class="img-fluid" width="600" height="600">
-            </div>
-            <h1>Ce este un nameserver?</h1>
-            <article>Un nameserver este un server specializat pe traducerea adreselor de internet, din cifre(ip uri), in adrese formate din litere.Este <a href="https://tools.ietf.org/html/rfc2182">regula</a> ca <span style="color: crimson">fiecare domeniu sa fie listat pe minim 3 nameservere</span>,
-                si maxim 7, iar fiecare nameserver sa fie intr-un subnet diferit.In felul acesta, probabilitatea ca un site sa nu fie gasit pe internet este foarte mica spre inexistenta, deoarece este aproape imposibil ca pe
-                toate cele 3 servere sa existe probleme in acelasi timp.
-            </article>
-            <h1>Ce este TTL -UL?</h1>
-            <article>
-                TTL-ul(time to live)este acea setare a fiecarei inregistrari de DNS, care specifica pentru cat timp, un resolver(tip de server de dns)
-                trebuie sa retina in memoria sa, cererea efectuata de catre alte servere de dns, pentru acea inregistrare.
-                Cu alte cuvinte, daca serverul A intreba serverul B despre vying.ro, iar serverul B a mai fost intrebat despre acest site, serverul B nu mai pleaca sa caute raspunsul
-                pe internet ci il ofera direct, serverului A.
-                De ce este foarte important TTL-ul?Pentru ca daca este setat pentru orice inregistrare ca fiind valabil o saptamana, spre exemplu, si trebuie modificat la o zi,va dura o saptamana pana sa
-                se stie pe internet ca s-a modificat la o zi.Severul B, stie ca o saptamana vying.ro va ramane neschimbat si nu mai pleaca sa caute alt rapsuns.Serveste direct, timp de o saptamana, serverului A,
-                ce are el in memorie.
-            </article>
-            <h1>Ce este reverse DNS-ul?</h1>
-            <article>
-                Reverse dns-ul este opusul dns-ului.Adica mapeaza calea de la un ip la un nume de domeniu.DNS-ul(forward dns) mapeaza numele unui domeniu catre un ip.
-                Acest tip de inregistrare dns este importanta, in particular, pentru serverele de e-mail.Foarte multe dintre acestea sunt configurate sa respinga corespondenta
-                care vine de la un ip ce nu are configurat reverse dns.
-            </article>
-            <h1>Ce este DNSSEC-UL?</h1>
-            <article>Foarte pe scurt si simplu, daca un SSL encripteaza traficul dintre un client si un server,la fel face si dnssec-ul, doar ca pentru inregistrarile din dns.
-                Se previn cu ajutorul acestuia atacurile de tip cache poisoning, pharming, si man-in-the-middle.
-            </article>
-            <h1>Ce este un vanity nameserver?</h1>
-            <article>La fel de pe scurt.Cu ajutorul nostru, puteti la registrar sa introduceti in loc de nameserverele actuale, ns1.siteuldvs.ro, ns2.siteuldvs.ro samd.</article>
-            <h1>Care sunt mai comune tipuri de inregistrari DNS?</h1>
-            <article>
-                A sau AAAA - acest tip de inregistrare directioneaza browserul spre ip-ul serverului unde se afla site-ul dumneavoastra.
-            </article>
-            <article>
-                CNAME - directioneaza, spre exemplu, vying.ro, spre www.vying.ro sau invers.Depinde cum e setat in DNS recordul A.
-            </article>
-            <article>
-                MX  -  le spune serverelor de email unde se afla serverul dumneavoastra de email.Un FEL de record A, insa doar pentru email-uri.
-            </article>
-            <article>
-                TXT - sunt cel mai des intalnite in corelare cu MX-urile pentru SPF, DKIM si DMARC(le explicam putin mai jos )
-            </article>
+<div class="container-fluid" id="faq">
+    <div class="row" id="vyp-overlay-support">
+        <div class="col-lg-12 col-sm-12" id="vyp-overlay">
+            {{> nav-vyipedia}}
+            <h1 class="h1-overlay">Vyingpedia</h1>
         </div>
     </div>
-    <div class="jumbotron" id="j_tron_pedia"></div>
-    <div class="row" style="margin-bottom: 10%">
-        <div class="col-lg-12 col-sm-12">
-            <h1>Ce reprezinta web hosting-ul?</h1>
-            <article>
-                Un web host este un calculator conectat in permanenta la internet(denumit server), pe care oamenii isi depoziteaza website-urile.Termenul de web hosting, de cele mai multe ori, exista
-                in corelare cu firmele care isi inchiriaza aceste calculatoare(servere) pentru acest fel de activitati.
-            </article>
-            <h1>Ce este SPF-ul?</h1>
-            <article>O inregistrare dns de tip SPF(Sender Policy Framework record), comunica serverelor specializate in tranzactiile cu e-mail-uri, cine are voie sa trimita e-mail-uri
-                in numele unui domeniu. Spre exemplu, server-ul nostru comunica faptul ca info@vying.ro este autorizat sa trimita e-mail-uri pentru domeniul vying.ro
-            </article>
-            <h1>Ce este DKIM-ul?</h1>
-            <article>O inregistrare dns de tip DKIM(DomainKeys Identified Mail) este o metoda de a valida autenticitatea unui email. Cand un e-mail este trimis, este semnat cu ajutorul unui chei
-                private existenta pe serverul de e-mail, iar in momentul cand ajunge pe serverul de destinatie acesta este verificat cu ajutorul cheii publice aflata in dns. Cu alte cuvinte cheia din
-                inregistrarea dns descuie lacatul din e-mail. 🙂
-            </article>
-            <h1>Ce este DMARC-ul?</h1>
-            <article>
-                O inregistrare dns de tip DMARC(Domain-based Message Authentication, Reporting & Conformance), pe scurt, supracertifica SPF-ul si/sau DKIM-ul. Un email va esua daca DMARC-ul nu poate verifica SPF-ul si DKIM-ul, sau doar DKIM-ul.Este prima tehnologie
-                care daca este implementata corect, poate face ca ‘header from:’, adica ce vedeti dvs ca fiind cel care a trimis e-mail-ul, sa fie 100% de incredere. Se termina cu spam-ul sau virusii care pot bloca un calculator.
-            </article>
-            <h1 id="smtp">Ce este SMTP-ul?</h1>
-            <article>
-                Abrevierea vine de la SIMPLE MAIL TRANSFER PROTOCOL. Va permite ca prin intermediul unui client de mail(cel mai cunoscut este Thunderbird-ul)sau prin intermediul webmail-ului(spre exemplu cand accesati gmail sau yahoo) sa trimiteti e-mail-uri.Pagina de WIKIPEDIA
-                are o traducere destul de buna.Daca doriti mai multe detalii si mai ales detalii tehnice despre serverul de SMTP, apasati <a href="https://ro.wikipedia.org/wiki/SMTP" target="_blank">aici</a>
-            </article>
+    <div class="container" id="vyipedia">
+        <div class="row" style="margin-top: 5%">
+            <div class="col-lg-12 col-sm-12">
+                <h1>Ce este DNS-UL?</h1>
+                <article>
+                    Dns-ul este cartea de telefon a internetului.
+                    Fiecare obiect conectat la internet are atasat un numar obligatoriu denumit ip(imediat explicatia), cu ajutorul caruia se identifica in retea.
+                    Oamenii acceseaza informatii online prin intermediul numelor de domenii, spre exemplu vying.ro, sau zf.ro, iar apoi browserele de internet
+                    acceseaza informatia prin intermediul protocolului de internet(IP).
+                    Dns-ul(denumit si forward dns) elimina nevoia de a retine acele numere, traducandu-le in diverse denumiri(numele de domenii), sau, dupa caz, in alte ip-uri.
+                    Sunt enorm de multe de explicat vis-a-vis de DNS insa in mare, speram ca ati inteles ideea.
+                </article>
+                <div class="text-center">
+                    <img src="/images/dnsbook.jpg" class="img-fluid" width="600" height="600">
+                </div>
+                <h1>Ce este un nameserver?</h1>
+                <article>Un nameserver este un server specializat pe traducerea adreselor de internet, din cifre(ip uri), in adrese formate din litere.Este <a href="https://tools.ietf.org/html/rfc2182">regula</a> ca <span style="color: crimson">fiecare domeniu sa fie listat pe minim 3 nameservere</span>,
+                    si maxim 7, iar fiecare nameserver sa fie intr-un subnet diferit.In felul acesta, probabilitatea ca un site sa nu fie gasit pe internet este foarte mica spre inexistenta, deoarece este aproape imposibil ca pe
+                    toate cele 3 servere sa existe probleme in acelasi timp.
+                </article>
+                <h1>Ce este TTL -UL?</h1>
+                <article>
+                    TTL-ul(time to live)este acea setare a fiecarei inregistrari de DNS, care specifica pentru cat timp, un resolver(tip de server de dns)
+                    trebuie sa retina in memoria sa, cererea efectuata de catre alte servere de dns, pentru acea inregistrare.
+                    Cu alte cuvinte, daca serverul A intreba serverul B despre vying.ro, iar serverul B a mai fost intrebat despre acest site, serverul B nu mai pleaca sa caute raspunsul
+                    pe internet ci il ofera direct, serverului A.
+                    De ce este foarte important TTL-ul?Pentru ca daca este setat pentru orice inregistrare ca fiind valabil o saptamana, spre exemplu, si trebuie modificat la o zi,va dura o saptamana pana sa
+                    se stie pe internet ca s-a modificat la o zi.Severul B, stie ca o saptamana vying.ro va ramane neschimbat si nu mai pleaca sa caute alt rapsuns.Serveste direct, timp de o saptamana, serverului A,
+                    ce are el in memorie.
+                </article>
+                <h1>Ce este reverse DNS-ul?</h1>
+                <article>
+                    Reverse dns-ul este opusul dns-ului.Adica mapeaza calea de la un ip la un nume de domeniu.DNS-ul(forward dns) mapeaza numele unui domeniu catre un ip.
+                    Acest tip de inregistrare dns este importanta, in particular, pentru serverele de e-mail.Foarte multe dintre acestea sunt configurate sa respinga corespondenta
+                    care vine de la un ip ce nu are configurat reverse dns.
+                </article>
+                <h1>Ce este DNSSEC-UL?</h1>
+                <article>Foarte pe scurt si simplu, daca un SSL encripteaza traficul dintre un client si un server,la fel face si dnssec-ul, doar ca pentru inregistrarile din dns.
+                    Se previn cu ajutorul acestuia atacurile de tip cache poisoning, pharming, si man-in-the-middle.
+                </article>
+                <h1>Ce este un vanity nameserver?</h1>
+                <article>La fel de pe scurt.Cu ajutorul nostru, puteti la registrar sa introduceti in loc de nameserverele actuale, ns1.siteuldvs.ro, ns2.siteuldvs.ro samd.</article>
+                <h1>Care sunt mai comune tipuri de inregistrari DNS?</h1>
+                <article>
+                    A sau AAAA - acest tip de inregistrare directioneaza browserul spre ip-ul serverului unde se afla site-ul dumneavoastra.
+                </article>
+                <article>
+                    CNAME - directioneaza, spre exemplu, vying.ro, spre www.vying.ro sau invers.Depinde cum e setat in DNS recordul A.
+                </article>
+                <article>
+                    MX  -  le spune serverelor de email unde se afla serverul dumneavoastra de email.Un FEL de record A, insa doar pentru email-uri.
+                </article>
+                <article>
+                    TXT - sunt cel mai des intalnite in corelare cu MX-urile pentru SPF, DKIM si DMARC(le explicam putin mai jos )
+                </article>
+            </div>
+        </div>
+        <div class="jumbotron" id="j_tron_pedia"></div>
+        <div class="row" style="margin-bottom: 10%">
+            <div class="col-lg-12 col-sm-12">
+                <h1>Ce reprezinta web hosting-ul?</h1>
+                <article>
+                    Un web host este un calculator conectat in permanenta la internet(denumit server), pe care oamenii isi depoziteaza website-urile.Termenul de web hosting, de cele mai multe ori, exista
+                    in corelare cu firmele care isi inchiriaza aceste calculatoare(servere) pentru acest fel de activitati.
+                </article>
+                <h1>Ce este SPF-ul?</h1>
+                <article>O inregistrare dns de tip SPF(Sender Policy Framework record), comunica serverelor specializate in tranzactiile cu e-mail-uri, cine are voie sa trimita e-mail-uri
+                    in numele unui domeniu. Spre exemplu, server-ul nostru comunica faptul ca info@vying.ro este autorizat sa trimita e-mail-uri pentru domeniul vying.ro
+                </article>
+                <h1>Ce este DKIM-ul?</h1>
+                <article>O inregistrare dns de tip DKIM(DomainKeys Identified Mail) este o metoda de a valida autenticitatea unui email. Cand un e-mail este trimis, este semnat cu ajutorul unui chei
+                    private existenta pe serverul de e-mail, iar in momentul cand ajunge pe serverul de destinatie acesta este verificat cu ajutorul cheii publice aflata in dns. Cu alte cuvinte cheia din
+                    inregistrarea dns descuie lacatul din e-mail. 🙂
+                </article>
+                <h1>Ce este DMARC-ul?</h1>
+                <article>
+                    O inregistrare dns de tip DMARC(Domain-based Message Authentication, Reporting & Conformance), pe scurt, supracertifica SPF-ul si/sau DKIM-ul. Un email va esua daca DMARC-ul nu poate verifica SPF-ul si DKIM-ul, sau doar DKIM-ul.Este prima tehnologie
+                    care daca este implementata corect, poate face ca ‘header from:’, adica ce vedeti dvs ca fiind cel care a trimis e-mail-ul, sa fie 100% de incredere. Se termina cu spam-ul sau virusii care pot bloca un calculator.
+                </article>
+                <h1 id="smtp">Ce este SMTP-ul?</h1>
+                <article>
+                    Abrevierea vine de la SIMPLE MAIL TRANSFER PROTOCOL. Va permite ca prin intermediul unui client de mail(cel mai cunoscut este Thunderbird-ul)sau prin intermediul webmail-ului(spre exemplu cand accesati gmail sau yahoo) sa trimiteti e-mail-uri.Pagina de WIKIPEDIA
+                    are o traducere destul de buna.Daca doriti mai multe detalii si mai ales detalii tehnice despre serverul de SMTP, apasati <a href="https://ro.wikipedia.org/wiki/SMTP" target="_blank">aici</a>
+                </article>
+            </div>
         </div>
     </div>
 </div>

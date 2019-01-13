@@ -33,6 +33,24 @@ body {
   -ms-user-select: none;
   user-select: none; }
 
+#landing-overlay-support {
+  background: url("/images/ns5server.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden; }
+
+#landing-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2; }
+
+#landingP {
+  color: black;
+  margin-left: 5%; }
+
 #cookie-law {
   font-family: Titillium Web, sans-serif;
   color: white;
@@ -53,8 +71,7 @@ body {
 #j_tron_main {
   background-color: transparent;
   min-width: 100%;
-  padding: 0;
-  margin-top: -10%; }
+  padding: 0; }
 
 #overlay-text-top-main-page {
   position: relative;
@@ -95,13 +112,13 @@ article {
   margin-bottom: 12%; }
 
 .bg-transparent {
-  background-color: #DDDDDF !important; }
+  background-color: transparent !important; }
 
 .navbar {
-  background-color: #DDDDDF; }
+  background-color: transparent !important; }
 
 .navbar-light {
-  background-color: #DDDDDF; }
+  background-color: transparent !important; }
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
@@ -109,8 +126,8 @@ article {
   font-weight: 400;
   font-size: 20px; }
 
-a:active {
-  color: #000; }
+.nav-link:hover {
+  color: white !important; }
 
 .navbar-light .navbar-brand {
   color: white;
@@ -130,13 +147,18 @@ a:active {
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
+.navbar-text {
+  color: wheat !important; }
+
 #vantageH {
   font-family: 'Nunito Sans', sans-serif;
-  margin-left: 15%; }
+  margin-left: 15%;
+  color: wheat; }
 
 #vantageP {
   font-family: 'Nunito Sans', sans-serif;
-  margin-left: 5px; }
+  margin-left: 5px;
+  color: wheat; }
 
 #hosting {
   font-size: 11px; }
@@ -146,7 +168,8 @@ a:active {
     margin-left: 9%; } }
 
 .nav-link {
-  white-space: nowrap; }
+  white-space: nowrap;
+  color: wheat !important; }
 
 .footer {
   position: relative;
@@ -167,17 +190,23 @@ a:active {
 .list-inline {
   padding-left: unset; }
 
-#dedicated-ctx {
-  background-image: url("/images/everydaydns.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed; }
-
 #web-development {
   margin-top: 5%;
   margin-bottom: 5%; }
+
+#webdev-overlay-support {
+  background: url("/images/ns5contactserver.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden; }
+
+#webdev-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2; }
 
 .shadow-wrapper-web-dev {
   border-radius: 3px;
@@ -199,9 +228,33 @@ a:active {
   background-position: center;
   background-size: cover; }
 
-#dns {
-  margin-top: 5%;
-  margin-bottom: 5%; }
+#vyp-overlay-support {
+  background: url("/images/vypedia.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden; }
+
+#vyp-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2; }
+
+#dns-overlay-support {
+  background: url("/images/ns5pricing.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden; }
+
+#dns-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2; }
 
 .card-subtitle {
   text-align: left;
@@ -251,5 +304,40 @@ a:active {
 
 address {
   font-family: Titillium Web, sans-serif; }
+
+#contact-overlay-support {
+  background: url("/images/metallicns0.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden; }
+
+#contact-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2; }
+
+#faq-overlay-support {
+  background: url("/images/ns5FAQ.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden; }
+
+#faq-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2; }
+
+.h1-overlay {
+  height: 50vh;
+  margin-top: 50vh;
+  margin-left: 15%;
+  font-size: 70px;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
