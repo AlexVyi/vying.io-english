@@ -41,7 +41,7 @@ body {
   user-select: none; }
 
 #landing-overlay-support {
-  background: url("/images/ns5server.jpg") no-repeat center center fixed;
+  background: url("/images/ns5server.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -223,7 +223,7 @@ article {
   margin-bottom: 5%; }
 
 #webdev-overlay-support {
-  background: url("/images/ns5contactserver.jpg") no-repeat center center fixed;
+  background: url("/images/ns5contactserver.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
