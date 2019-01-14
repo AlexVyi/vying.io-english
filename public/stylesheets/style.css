@@ -22,8 +22,23 @@
   line-height: 32px;
   padding: 0 24px; }
 
+.buttons:focus {
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
 .form-group {
   font-family: Titillium Web, sans-serif; }
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
 
 #landing-overlay-support {
   background: url("/images/ns5server.jpg") no-repeat center center fixed;
@@ -31,6 +46,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
   overflow: hidden; }
 
 #landing-overlay {
@@ -42,6 +58,13 @@
 #landingP {
   color: black;
   margin-left: 5%; }
+
+.h1-overlay {
+  height: 50vh;
+  margin-top: 50vh;
+  margin-left: 15%;
+  font-size: 70px;
+  color: white; }
 
 #cookie-law {
   font-family: Titillium Web, sans-serif;
@@ -102,6 +125,16 @@ article {
 #ask_button_div {
   margin-top: 10%;
   margin-bottom: 12%; }
+
+@media screen and (max-width: 768px) {
+  .h1-overlay {
+    height: unset;
+    margin-top: 50vh;
+    margin-left: unset;
+    font-size: 70px;
+    color: white; }
+  #webDevH1 {
+    font-size: 50px !important; } }
 
 .bg-transparent {
   background-color: transparent !important; }
@@ -195,6 +228,7 @@ article {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
   overflow: hidden; }
 
 #webdev-overlay {
@@ -229,6 +263,7 @@ article {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
   overflow: hidden; }
 
 #vyp-overlay {
@@ -243,6 +278,7 @@ article {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
   overflow: hidden; }
 
 #dns-overlay {
@@ -306,6 +342,7 @@ address {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
   overflow: hidden; }
 
 #contact-overlay {
@@ -320,6 +357,7 @@ address {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
   overflow: hidden; }
 
 #faq-overlay {
@@ -327,12 +365,5 @@ address {
   overflow: hidden;
   height: 100%;
   z-index: 2; }
-
-.h1-overlay {
-  height: 50vh;
-  margin-top: 50vh;
-  margin-left: 15%;
-  font-size: 70px;
-  color: white; }
 
 /*# sourceMappingURL=style.css.map */

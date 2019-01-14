@@ -1,4 +1,4 @@
-//body
+body
   //make text un-selectable
   -webkit-touch-callout: none
   -webkit-user-select: none
@@ -12,6 +12,7 @@
   -moz-background-size: cover
   -o-background-size: cover
   background-size: cover
+  height: 100%
   overflow: hidden
 
 #landing-overlay
@@ -23,6 +24,14 @@
 #landingP
   color: black
   margin-left: 5%
+
+.h1-overlay
+  height: 50vh
+  margin-top: 50vh
+  margin-left: 15%
+  font-size: 70px
+  color: white
+
 
 
 #cookie-law
@@ -88,6 +97,15 @@ article
   margin-bottom: 12%
 
 
+@media screen and (max-width: 768px)
+  .h1-overlay
+    height: unset
+    margin-top: 50vh
+    margin-left: unset
+    font-size: 70px
+    color: white
 
+  #webDevH1
+    font-size: 50px!important
 
 
