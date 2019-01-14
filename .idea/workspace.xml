@@ -2,58 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914c516c-a635-4448-ad5d-6ad53af3f5a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/partials/_faq.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/android-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/android-icon-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-36x36.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/android-icon-36x36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/android-icon-48x48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/android-icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/android-icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/android-icon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-114x114.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-120x120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-152x152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-180x180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-57x57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-60x60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-76x76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/apple-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/favicon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/favicon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/ms-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/ms-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/ms-icon-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/ms-icon-150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/ms-icon-310x310.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/ms-icon-310x310.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon/ms-icon-70x70.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon/ms-icon-70x70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_contact.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/partials/_contact.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_dedicated-dns.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_dns.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/partials/_dns.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/vyingio" beforeDir="false" afterPath="$PROJECT_DIR$/bin/vying.io" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/node_modules/safe-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/morgan/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/cookie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/partials/_main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_nav-dns.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/partials/_nav-dns.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_nav-main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/partials/_nav-main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_vyingpedia.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/partials/_vyingpedia.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_web-development.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/partials/_web-development.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/business-plan.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/business-plan.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/cookies.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/cookies.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/dns.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dns.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/faq.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/faq.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/friendly-error.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/friendly-error.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/nav.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/nav.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/layout.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/personal-plan.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/personal-plan.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/policy.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/policy.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/professional-plan.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/professional-plan.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/vyingpedia.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/vyingpedia.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/web-development.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/web-development.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/wordpress-plan.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/wordpress-plan.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,36 +55,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.hbs">
+        <entry file="file://$PROJECT_DIR$/views/professional-plan.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="21" column="64" lean-forward="true" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/faq.hbs">
+        <entry file="file://$PROJECT_DIR$/views/wordpress-plan.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="1" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="420">
+              <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/vyingpedia.hbs">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_vyingpedia.sass">
+        <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="84">
+              <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/contact.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/personal-plan.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/cookie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="22" column="202" selection-start-line="22" selection-start-column="202" selection-end-line="22" selection-end-column="202" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/policy.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/cookies.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -136,52 +170,54 @@
         <option value="$PROJECT_DIR$/views/partials/nav-web-development.hbs" />
         <option value="$PROJECT_DIR$/lib/recapcha.js" />
         <option value="$PROJECT_DIR$/lib/nodemailer.js" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/javascripts/pretty.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/partials/_plans.sass" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/partials/nav-faq.hbs" />
         <option value="$PROJECT_DIR$/views/partials/nav-vyipedia.hbs" />
         <option value="$PROJECT_DIR$/views/partials/nav-all-plans.hbs" />
-        <option value="$PROJECT_DIR$/views/wordpress-plan.hbs" />
         <option value="$PROJECT_DIR$/views/success.hbs" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/cookie.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/partials/_footer.sass" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/views/layouts/layout.hbs" />
         <option value="$PROJECT_DIR$/views/partials/footer.hbs" />
         <option value="$PROJECT_DIR$/views/policy.hbs" />
-        <option value="$PROJECT_DIR$/views/cookies.hbs" />
         <option value="$PROJECT_DIR$/public/stylesheets/partials/_dns.sass" />
         <option value="$PROJECT_DIR$/public/stylesheets/partials/_nav-dns.sass" />
-        <option value="$PROJECT_DIR$/public/stylesheets/partials/_nav-main.sass" />
         <option value="$PROJECT_DIR$/views/faq.hbs" />
         <option value="$PROJECT_DIR$/public/stylesheets/partials/_faq.sass" />
-        <option value="$PROJECT_DIR$/public/stylesheets/partials/_main.sass" />
-        <option value="$PROJECT_DIR$/views/contact.hbs" />
         <option value="$PROJECT_DIR$/views/friendly-error.hbs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/partials/_contact.sass" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.sass" />
+        <option value="$PROJECT_DIR$/views/partials/nav.hbs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/partials/_vyingpedia.sass" />
+        <option value="$PROJECT_DIR$/views/vyingpedia.hbs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/partials/_main.sass" />
+        <option value="$PROJECT_DIR$/public/stylesheets/partials/_web-development.sass" />
         <option value="$PROJECT_DIR$/views/dns.hbs" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/views/web-development.hbs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/partials/_nav-main.sass" />
+        <option value="$PROJECT_DIR$/views/about.hbs" />
+        <option value="$PROJECT_DIR$/views/layouts/layout.hbs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/bin/vying.io" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/views/business-plan.hbs" />
+        <option value="$PROJECT_DIR$/views/contact.hbs" />
         <option value="$PROJECT_DIR$/views/personal-plan.hbs" />
         <option value="$PROJECT_DIR$/views/professional-plan.hbs" />
-        <option value="$PROJECT_DIR$/views/business-plan.hbs" />
-        <option value="$PROJECT_DIR$/public/stylesheets/partials/_contact.sass" />
-        <option value="$PROJECT_DIR$/public/stylesheets/partials/_web-development.sass" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.sass" />
-        <option value="$PROJECT_DIR$/views/web-development.hbs" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/views/partials/nav.hbs" />
-        <option value="$PROJECT_DIR$/views/about.hbs" />
-        <option value="$PROJECT_DIR$/views/vyingpedia.hbs" />
-        <option value="$PROJECT_DIR$/public/stylesheets/partials/_vyingpedia.sass" />
+        <option value="$PROJECT_DIR$/views/wordpress-plan.hbs" />
+        <option value="$PROJECT_DIR$/public/javascripts/cookie.js" />
+        <option value="$PROJECT_DIR$/views/cookies.hbs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1345" />
+    <option name="x" value="56" />
+    <option name="y" value="273" />
+    <option name="width" value="1680" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,13 +235,12 @@
             <path>
               <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
               <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
               <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
@@ -216,26 +251,13 @@
             <path>
               <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
               <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
               <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,18 +354,18 @@
       <workItem from="1545473790173" duration="308000" />
       <workItem from="1546270251678" duration="404000" />
       <workItem from="1547234302052" duration="1978000" />
-      <workItem from="1547334331069" duration="15457000" />
+      <workItem from="1547334331069" duration="27953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140055000" />
+    <option name="totallyTimeSpent" value="152551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19298936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14966522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -368,12 +390,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/images/hosting.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/firstmainpage.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/dns.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -391,31 +407,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_plans.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wordpress-plan.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -454,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="165" selection-start-line="22" selection-start-column="165" selection-end-line="22" selection-end-column="165" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_footer.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -485,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/layout.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_nav-dns.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -506,20 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_nav-main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/success.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -530,55 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="111" selection-start-line="5" selection-start-column="111" selection-end-line="5" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/cookies.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="102" lean-forward="true" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/policy.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/dns.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="136" selection-start-line="11" selection-start-column="136" selection-end-line="11" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/business-plan.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/professional-plan.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/personal-plan.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/contact.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="19" column="124" lean-forward="true" selection-start-line="19" selection-start-column="104" selection-end-line="19" selection-end-column="124" />
         </state>
       </provider>
     </entry>
@@ -600,27 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_web-development.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/web-development.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/nav.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -659,23 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/about.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="64" lean-forward="true" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_faq.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -683,20 +563,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/faq.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="1" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/vyingpedia.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_vyingpedia.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/vyingpedia.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/faq.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_web-development.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/nav.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" lean-forward="true" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/partials/_nav-main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/vying.io">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/business-plan.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dns.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/web-development.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/professional-plan.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/wordpress-plan.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/personal-plan.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/policy.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="22" column="202" selection-start-line="22" selection-start-column="202" selection-end-line="22" selection-end-column="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cookies.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/layout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="62" lean-forward="true" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
         </state>
       </provider>
     </entry>

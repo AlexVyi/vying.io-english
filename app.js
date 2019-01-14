@@ -1,8 +1,6 @@
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
-const cookieParser = require('cookie-parser');
-const logger = require('morgan');
 const expressHbs = require('express-handlebars');
 const sassMiddleware = require('node-sass-middleware');
 const helmet =require('helmet');
@@ -24,10 +22,10 @@ app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs',expressHbs({defaultLayout:'layout', extname:'.hbs'}));
 app.set('view engine', 'hbs');
 
-app.use(logger('dev'));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
+
 app.use(sassMiddleware({
   src: path.join(__dirname, 'public'),
   dest: path.join(__dirname, 'public'),

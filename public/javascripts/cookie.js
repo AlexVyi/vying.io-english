@@ -20,9 +20,9 @@ function createDiv(){
 	var div = document.createElement('div');
 	setAttributes(div,{'class':'container', 'id':'cookie-ctx'});  /* ă â ș ț Î î µ */
 
-	div.innerHTML = '<div class=row id="cookie-law-row">' + '<div class="col-lg-11 offset-lg-1 col-sm-12" id="cookie-law">Da, și site-ul nostru folosește cookie-uri. Prin continuarea navigării vă dați acordul ca acestea să fie instalat pe dispozitivul dvs.' +
-	  ' Vă rugăm să citiți despre' + '<a  href="/cookies" rel="nofollow" title=""> politica de cookie-uri.</a> O să fie o lectură interesantă.</div> ' +
-	  '<a id="close-cookie-banner" class="mx-auto d-block" href="javascript:void(0)" onclick="removeMe()" >Am înțeles!</a>'
+	div.innerHTML = '<div class=row id="cookie-law-row">' + '<div class="col-lg-11 offset-lg-1 col-sm-12" id="cookie-law">Yes, our site uses one cookie, too. :) If you continue to our site you accept it.' +
+	  ' Please read about our ' + '<a  href="/cookies" rel="nofollow" title=""> cookie policy.</a>.</div> ' +
+	  '<a id="close-cookie-banner" class="mx-auto d-block" href="javascript:void(0)" onclick="removeMe()" >I understand!</a>'
 	  + '</div>'// Be advised the Close Banner 'Am inteles' link requires jQuery
 
 

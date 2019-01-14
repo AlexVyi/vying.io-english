@@ -8,86 +8,81 @@
     <div class="container" id="vyipedia">
         <div class="row" style="margin-top: 5%">
             <div class="col-lg-12 col-sm-12">
-                <h1>Ce este DNS-UL?</h1>
+                <h1>What is DNS?</h1>
                 <article>
-                    Dns-ul este cartea de telefon a internetului.
-                    Fiecare obiect conectat la internet are atasat un numar obligatoriu denumit ip(imediat explicatia), cu ajutorul caruia se identifica in retea.
-                    Oamenii acceseaza informatii online prin intermediul numelor de domenii, spre exemplu vying.ro, sau zf.ro, iar apoi browserele de internet
-                    acceseaza informatia prin intermediul protocolului de internet(IP).
-                    Dns-ul(denumit si forward dns) elimina nevoia de a retine acele numere, traducandu-le in diverse denumiri(numele de domenii), sau, dupa caz, in alte ip-uri.
-                    Sunt enorm de multe de explicat vis-a-vis de DNS insa in mare, speram ca ati inteles ideea.
+                    You can think of DNS(domain name system) like being a book.The phone book of the internet. Every device connected to the internet has a number attached to it called IP( internet protocol ) with the help of which it identifies itself on the network.
+                    People access informations online through internet domains using a internet browser, for example ns5.org, and browsers access the requested information through the internet protocol.
+                    DNS( often called forward dns) eliminates the need of remembering those numbers and thus translates them into names( internet domains) or, if required, into other ips.
+                    There is a lot to talk about with regards of  DNS but we hope you understood its purpose.
                 </article>
                 <div class="text-center">
                     <img src="/images/dnsbook.jpg" class="img-fluid" width="600" height="600">
                 </div>
-                <h1>Ce este un nameserver?</h1>
-                <article>Un nameserver este un server specializat pe traducerea adreselor de internet, din cifre(ip uri), in adrese formate din litere.Este <a href="https://tools.ietf.org/html/rfc2182">regula</a> ca <span style="color: crimson">fiecare domeniu sa fie listat pe minim 3 nameservere</span>,
-                    si maxim 7, iar fiecare nameserver sa fie intr-un subnet diferit.In felul acesta, probabilitatea ca un site sa nu fie gasit pe internet este foarte mica spre inexistenta, deoarece este aproape imposibil ca pe
-                    toate cele 3 servere sa existe probleme in acelasi timp.
+                <h1>What is a nameserver?</h1>
+                <article>Here we are talking about a server specialised in translating the ips requested by different browsers into domain names.
+                    It is a rule that specifies that every domain should be listed on minim three nameservers and maxim seven.
+                    Also every name server should be placed on a different network to ensure high availability.
+                    This way, the probability for a website to be down due to DNS issues, is almost 0, unless under attack(there are specific attacks for DNS, too).
                 </article>
-                <h1>Ce este TTL -UL?</h1>
+                <h1>What is TTL?</h1>
                 <article>
-                    TTL-ul(time to live)este acea setare a fiecarei inregistrari de DNS, care specifica pentru cat timp, un resolver(tip de server de dns)
-                    trebuie sa retina in memoria sa, cererea efectuata de catre alte servere de dns, pentru acea inregistrare.
-                    Cu alte cuvinte, daca serverul A intreba serverul B despre vying.ro, iar serverul B a mai fost intrebat despre acest site, serverul B nu mai pleaca sa caute raspunsul
-                    pe internet ci il ofera direct, serverului A.
-                    De ce este foarte important TTL-ul?Pentru ca daca este setat pentru orice inregistrare ca fiind valabil o saptamana, spre exemplu, si trebuie modificat la o zi,va dura o saptamana pana sa
-                    se stie pe internet ca s-a modificat la o zi.Severul B, stie ca o saptamana vying.ro va ramane neschimbat si nu mai pleaca sa caute alt rapsuns.Serveste direct, timp de o saptamana, serverului A,
-                    ce are el in memorie.
+                    TTL( time to live ) is a part of a dns record which specifies for how long a resolver(type of dns server) should keep in its cache,
+                    the request made by other dns servers for that particular record.
                 </article>
-                <h1>Ce este reverse DNS-ul?</h1>
+                <h1>What is reverse dns?</h1>
                 <article>
-                    Reverse dns-ul este opusul dns-ului.Adica mapeaza calea de la un ip la un nume de domeniu.DNS-ul(forward dns) mapeaza numele unui domeniu catre un ip.
-                    Acest tip de inregistrare dns este importanta, in particular, pentru serverele de e-mail.Foarte multe dintre acestea sunt configurate sa respinga corespondenta
-                    care vine de la un ip ce nu are configurat reverse dns.
+                    Reverse dns is the oposite of dns( forward dns ). It maps the way from the ip to a domain name. Dns maps the way from the domain name to the ip.
                 </article>
-                <h1>Ce este DNSSEC-UL?</h1>
-                <article>Foarte pe scurt si simplu, daca un SSL encripteaza traficul dintre un client si un server,la fel face si dnssec-ul, doar ca pentru inregistrarile din dns.
-                    Se previn cu ajutorul acestuia atacurile de tip cache poisoning, pharming, si man-in-the-middle.
+                <h1>What is DNSSEC?</h1>
+                <article>To be brief and not to get into too many technical details, dnssec encrypts every dns record.Like the ssl does for the traffic between the client and the server.
+                    It prevents attacks of type cache poisoning, pharming, and man-in-the-middle.
                 </article>
-                <h1>Ce este un vanity nameserver?</h1>
-                <article>La fel de pe scurt.Cu ajutorul nostru, puteti la registrar sa introduceti in loc de nameserverele actuale, ns1.siteuldvs.ro, ns2.siteuldvs.ro samd.</article>
-                <h1>Care sunt mai comune tipuri de inregistrari DNS?</h1>
+                <h1>What is vanity nameserver?</h1>
+                <article>Vanity nameservers makes possible for your domain to serve as its nameserver. So you can set at your registrar, ns1.yourdomain.com, ns2.yourdomain.com and so on.
+                </article>
+                <h1>Which are the most common dns records?</h1>
                 <article>
-                    A sau AAAA - acest tip de inregistrare directioneaza browserul spre ip-ul serverului unde se afla site-ul dumneavoastra.
+                    A sau AAAA – points the browser towards the ip where your domain is hosted.
                 </article>
                 <article>
-                    CNAME - directioneaza, spre exemplu, vying.ro, spre www.vying.ro sau invers.Depinde cum e setat in DNS recordul A.
+                    CNAME – points, for example, vying.io towards www.vying.io or viceversa, depending on how the A record is set.
                 </article>
                 <article>
-                    MX  -  le spune serverelor de email unde se afla serverul dumneavoastra de email.Un FEL de record A, insa doar pentru email-uri.
+                    MX – tells other email servers where yours is. Kind of an A record for emails.
                 </article>
                 <article>
-                    TXT - sunt cel mai des intalnite in corelare cu MX-urile pentru SPF, DKIM si DMARC(le explicam putin mai jos )
+                    TXT – most common in correlation with MXs for SPF, DKIM and DMARC.
                 </article>
             </div>
         </div>
         <div class="jumbotron" id="j_tron_pedia"></div>
         <div class="row" style="margin-bottom: 10%">
             <div class="col-lg-12 col-sm-12">
-                <h1>Ce reprezinta web hosting-ul?</h1>
+                <h1>What is in fact web hosting?</h1>
                 <article>
-                    Un web host este un calculator conectat in permanenta la internet(denumit server), pe care oamenii isi depoziteaza website-urile.Termenul de web hosting, de cele mai multe ori, exista
-                    in corelare cu firmele care isi inchiriaza aceste calculatoare(servere) pentru acest fel de activitati.
+                    A web host is a computer permanently connected to the internet, called server, on which people deposit their websites.
+                    The term web hosting is usually associated with companies that lend their servers for such activities.
                 </article>
-                <h1>Ce este SPF-ul?</h1>
-                <article>O inregistrare dns de tip SPF(Sender Policy Framework record), comunica serverelor specializate in tranzactiile cu e-mail-uri, cine are voie sa trimita e-mail-uri
-                    in numele unui domeniu. Spre exemplu, server-ul nostru comunica faptul ca info@vying.ro este autorizat sa trimita e-mail-uri pentru domeniul vying.ro
+                <h1>What is SPF?</h1>
+                <article>A Sender Policy Framework record (SPF), communicates to e-mail servers, which mailbox is allowed to send emails on behalf of a domain.
+                    For example, our server communicates that info@vying.io is authorized to send emails on behalf of vying.io domain.
                 </article>
-                <h1>Ce este DKIM-ul?</h1>
-                <article>O inregistrare dns de tip DKIM(DomainKeys Identified Mail) este o metoda de a valida autenticitatea unui email. Cand un e-mail este trimis, este semnat cu ajutorul unui chei
-                    private existenta pe serverul de e-mail, iar in momentul cand ajunge pe serverul de destinatie acesta este verificat cu ajutorul cheii publice aflata in dns. Cu alte cuvinte cheia din
-                    inregistrarea dns descuie lacatul din e-mail. 🙂
+                <h1>What is DKIM?</h1>
+                <article>A DomainKeys Identified Mail (DKIM) record is a way to validate the authenticity of an e-mail.
+                    When an e-mail is sent, it is signed using a private key on the e-mail server, and when it arrives at the destination server it is checked with the public key found in the dns record.
+                    In other words, the key from dns record, unlocks the e-mail. 🙂
                 </article>
-                <h1>Ce este DMARC-ul?</h1>
+                <h1>What is DMARC?</h1>
                 <article>
-                    O inregistrare dns de tip DMARC(Domain-based Message Authentication, Reporting & Conformance), pe scurt, supracertifica SPF-ul si/sau DKIM-ul. Un email va esua daca DMARC-ul nu poate verifica SPF-ul si DKIM-ul, sau doar DKIM-ul.Este prima tehnologie
-                    care daca este implementata corect, poate face ca ‘header from:’, adica ce vedeti dvs ca fiind cel care a trimis e-mail-ul, sa fie 100% de incredere. Se termina cu spam-ul sau virusii care pot bloca un calculator.
+                    A DMARC (Domain-based Message Authentication, Reporting & Conformance) record, in short, certifies the SPF and / or DKIM record.
+                    An email will fail if the DMARC can not check the SPF and DKIM, or just the DKIM. It’s the first technology which, if implemented correctly,
+                    can certify ‘header from:’ what you see as being the person who sent the email,  as being 100% reliable. It is the end of spam or viruses that can block a computer.
                 </article>
-                <h1 id="smtp">Ce este SMTP-ul?</h1>
+                <h1 id="smtp">What is SMTP?</h1>
                 <article>
-                    Abrevierea vine de la SIMPLE MAIL TRANSFER PROTOCOL. Va permite ca prin intermediul unui client de mail(cel mai cunoscut este Thunderbird-ul)sau prin intermediul webmail-ului(spre exemplu cand accesati gmail sau yahoo) sa trimiteti e-mail-uri.Pagina de WIKIPEDIA
-                    are o traducere destul de buna.Daca doriti mai multe detalii si mai ales detalii tehnice despre serverul de SMTP, apasati <a href="https://ro.wikipedia.org/wiki/SMTP" target="_blank">aici</a>
+                     Also known as simple mail transfer protocol it allows you that together with an e-mail client(most known are Thunderbird and Outlook) or a webmail(gmail or yahoo are webmail clients)
+                    to send e-mails.If you wish to read more about smtp protocol,
+                    <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">push here.</a>
                 </article>
             </div>
         </div>
