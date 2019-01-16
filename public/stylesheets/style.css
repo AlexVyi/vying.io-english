@@ -258,7 +258,7 @@ article {
   background-size: cover; }
 
 #vyp-overlay-support {
-  background: url("/images/vypedia.jpg") no-repeat center center fixed;
+  background: url("/images/vypedia.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -273,7 +273,7 @@ article {
   z-index: 2; }
 
 #dns-overlay-support {
-  background: url("/images/ns5pricing.jpg") no-repeat center center fixed;
+  background: url("/images/ns5pricing.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -337,7 +337,7 @@ address {
   font-family: Titillium Web, sans-serif; }
 
 #contact-overlay-support {
-  background: url("/images/metallicns0.jpg") no-repeat center center fixed;
+  background: url("/images/metallicns0.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -352,7 +352,7 @@ address {
   z-index: 2; }
 
 #faq-overlay-support {
-  background: url("/images/ns5FAQ.jpg") no-repeat center center fixed;
+  background: url("/images/ns5FAQ.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
