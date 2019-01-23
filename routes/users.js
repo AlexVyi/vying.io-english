@@ -4,9 +4,9 @@ const { check, validationResult } = require('express-validator/check');
 const node_mailer = require('nodemailer');
 const cred = require('../lib/nodemailer');
 const json2html = require('node-json2html');
-const secrets_of_recapcha = require('../lib/recapcha');
+const secrets_of_recaptcha = require('../lib/recapcha');
 const Recaptcha = require('express-recaptcha').Recaptcha;
-const recaptcha = new Recaptcha(secrets_of_recapcha.key, secrets_of_recapcha.secret);
+const recaptcha = new Recaptcha(secrets_of_recaptcha.key, secrets_of_recaptcha.secret);
 
 /* GET users listing. */
 
@@ -51,7 +51,7 @@ router.post('/contact',[
 		  };
 		  let html = json2html.transform(data, transform);
 		  let mailOptions = {
-			  to: 'info@vying.ro',
+			  to: 'info@vying.io',
 			  from: email,
 			  subject: full_name,
 			  html: html
@@ -111,7 +111,7 @@ router.post('/personal-plan',[
 		  };
 		  let html = json2html.transform(data, transform);
 		  let mailOptions = {
-			  to: 'info@vying.ro',
+			  to: 'info@vying.io',
 			  from: email,
 			  subject: full_name,
 			  html: html
@@ -171,7 +171,7 @@ router.post('/professional-plan',[
 		  };
 		  let html = json2html.transform(data, transform);
 		  let mailOptions = {
-			  to: 'info@vying.ro',
+			  to: 'info@vying.io',
 			  from: email,
 			  subject: full_name,
 			  html: html
@@ -231,7 +231,7 @@ router.post('/business-plan',[
 		  };
 		  let html = json2html.transform(data, transform);
 		  let mailOptions = {
-			  to: 'info@vying.ro',
+			  to: 'info@vying.io',
 			  from: email,
 			  subject: full_name,
 			  html: html
@@ -291,7 +291,7 @@ router.post('/wordpress-plan',[
 		  };
 		  let html = json2html.transform(data, transform);
 		  let mailOptions = {
-			  to: 'info@vying.ro',
+			  to: 'info@vying.io',
 			  from: email,
 			  subject: full_name,
 			  html: html
