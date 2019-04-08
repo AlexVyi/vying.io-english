@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="EN">
   <head>
-    <title>Domain name services and DNS hosting, Professional DNS, WEB HOSTING and WEB DEVELOPMENT.</title>
+    <title>Domain name services and dns hosting, managed professional dns, web hosting and nodeJs web development.</title>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="viewport" content="width=device-width">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="Domain name services and DNS hosting, professional dns,premium dns,web hosting, node web development, DNSSEC">
-      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+      <link rel="preconnect stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans" crossorigin>
+      <link rel="preconnect stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i,600,600i,700,700i" crossorigin>
       <link rel="stylesheet" href="/css/bootstrap.css">
       <link rel="stylesheet" href="/css/font-awesome.css">
       <link rel='stylesheet' href='/stylesheets/style.css'/>
@@ -34,7 +34,19 @@
   {{#> head-block}}
 
   {{/head-block}}
+
+  <noscript>{{!-- case no JS enabled disply this style="background-color: #EDEFF2"--}}
+      <style type="text/css">
+          #main {display:none;}
+          .navbar {display:none;}
+          .footer {display:none;}
+      </style>
+      <div class="jumbotron alert-danger" style="text-align: center">
+          Nu aveti JavaScript activata! Ne pare rau, dar site-ul nostru nu functioneaza fara.
+      </div>
+  </noscript>
     {{{body}}}
+
 
   {{#> footer-block}}
 

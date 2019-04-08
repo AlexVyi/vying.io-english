@@ -55,7 +55,7 @@ body {
   height: 100%;
   z-index: 2; }
 
-#landingP {
+.landingP {
   color: black;
   margin-left: 5%; }
 
@@ -134,7 +134,9 @@ article {
     font-size: 70px;
     color: white; }
   #webDevH1 {
-    font-size: 50px !important; } }
+    font-size: 50px !important; }
+  small {
+    font-size: 25px; } }
 
 .bg-transparent {
   background-color: transparent !important; }
@@ -301,7 +303,7 @@ article {
   position: relative;
   display: block;
   max-width: 575px;
-  height: 673px;
+  height: 704px;
   vertical-align: top;
   background: #fff;
   box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }
@@ -315,7 +317,7 @@ article {
   position: relative;
   display: block;
   max-width: 575px;
-  height: 748px;
+  height: 780px;
   vertical-align: top;
   background: #fff;
   box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }

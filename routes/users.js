@@ -4,9 +4,9 @@ const { check, validationResult } = require('express-validator/check');
 const node_mailer = require('nodemailer');
 const cred = require('../lib/nodemailer');
 const json2html = require('node-json2html');
-const secrets_of_recaptcha = require('../lib/recapcha');
 const Recaptcha = require('express-recaptcha').Recaptcha;
-const recaptcha = new Recaptcha(secrets_of_recaptcha.key, secrets_of_recaptcha.secret);
+//const secrets_of_recaptcha = require('../lib/recapcha');
+const recaptcha = new Recaptcha('6LfMuIkUAAAAAFlx_PayuhNqOVqBJMdrJoeL6TOQ','6LfMuIkUAAAAANq6ZUUHXkyrfxKz5cluL_WME5a_');
 
 /* GET users listing. */
 

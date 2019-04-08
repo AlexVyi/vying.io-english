@@ -17,6 +17,17 @@ app.use(function (req, res, next) {
   next()
 });
 
+/*TELL GOOGLE ON ALL THE REST THAT IS IS NOT DUPLICATE CONTENT*/
+/*app.use(function(req, res, next) {
+  res.setHeader('X-Link', 'https://vying.io, https://vying.io/dns, https://vying.io/web-development, https://vying.io/faq, https://vying.io/contact, https://vying.io/vyingpedia ; rel="canonical"');
+  next();
+});*/
+
+app.use(function(req, res, next) {
+  res.setHeader('X-PoP', 'location: Johannesburg');
+  next();
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs',expressHbs({defaultLayout:'layout', extname:'.hbs'}));
