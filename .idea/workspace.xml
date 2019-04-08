@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914c516c-a635-4448-ad5d-6ad53af3f5a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/anycast-plan.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/unicast-plan.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/vying.io" beforeDir="false" afterPath="$PROJECT_DIR$/server/vying.io" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/recapcha.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/recapcha.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express-recaptcha/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express-recaptcha/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_dns.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/partials/_dns.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/partials/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/partials/_main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/business-plan.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/business-plan.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/dns.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dns.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/personal-plan.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/personal-plan.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/professional-plan.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/professional-plan.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vyingpedia.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/vyingpedia.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/web-development.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/web-development.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+            <state relative-caret-position="1575">
+              <caret line="75" column="79" lean-forward="true" selection-start-line="75" selection-start-column="79" selection-end-line="75" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -96,11 +75,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/unicast-plan.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="18" column="105" selection-start-line="18" selection-start-column="105" selection-end-line="18" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="317" column="26" selection-start-line="317" selection-start-column="26" selection-end-line="317" selection-end-column="26" />
+              <folding>
+                <element signature="e#559#782#0" />
+                <element signature="e#838#2174#0" />
+                <element signature="e#2206#2429#0" />
+                <element signature="e#2485#3946#0" />
+                <element signature="e#3982#4205#0" />
+                <element signature="e#4261#5742#0" />
+                <element signature="e#5774#5997#0" />
+                <element signature="e#6053#7514#0" />
+                <element signature="e#7547#7770#0" />
+                <element signature="e#7826#9292#0" />
+                <element signature="e#9325#9548#0" />
+                <element signature="e#9604#11070#0" />
+                <element signature="e#11101#11324#0" />
+                <element signature="e#11380#12846#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,7 +175,6 @@
         <option value="$PROJECT_DIR$/views/policy.hbs" />
         <option value="$PROJECT_DIR$/node_modules/express-recaptcha/dist/index.js" />
         <option value="$PROJECT_DIR$/lib/recapcha.js" />
-        <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/bin/vying.io" />
         <option value="$PROJECT_DIR$/server/vying.io" />
@@ -182,13 +185,14 @@
         <option value="$PROJECT_DIR$/public/stylesheets/partials/_dns.sass" />
         <option value="$PROJECT_DIR$/views/web-development.hbs" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/anycast-plan.hbs" />
         <option value="$PROJECT_DIR$/views/business-plan.hbs" />
         <option value="$PROJECT_DIR$/views/personal-plan.hbs" />
         <option value="$PROJECT_DIR$/views/professional-plan.hbs" />
         <option value="$PROJECT_DIR$/views/dns.hbs" />
         <option value="$PROJECT_DIR$/views/unicast-plan.hbs" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
@@ -231,30 +235,6 @@
             <path>
               <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
               <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vying.io english" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vying.io english" type="b2602c69:ProjectViewProjectNode" />
@@ -370,12 +350,12 @@
       <workItem from="1554236407121" duration="504000" />
       <workItem from="1554316807620" duration="186000" />
       <workItem from="1554714002631" duration="22000" />
-      <workItem from="1554714034679" duration="6528000" />
+      <workItem from="1554714034679" duration="7656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195974000" />
+    <option name="totallyTimeSpent" value="197102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -395,7 +375,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Statistic" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49980307" weight="0.50569105" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49980307" weight="0.19302154" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50177234" side_tool="true" weight="0.36896807" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -552,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -656,13 +629,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/professionalplan.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/professional-plan.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -716,6 +682,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="105" selection-start-line="18" selection-start-column="105" selection-end-line="18" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="317" column="26" selection-start-line="317" selection-start-column="26" selection-end-line="317" selection-end-column="26" />
+          <folding>
+            <element signature="e#559#782#0" />
+            <element signature="e#838#2174#0" />
+            <element signature="e#2206#2429#0" />
+            <element signature="e#2485#3946#0" />
+            <element signature="e#3982#4205#0" />
+            <element signature="e#4261#5742#0" />
+            <element signature="e#5774#5997#0" />
+            <element signature="e#6053#7514#0" />
+            <element signature="e#7547#7770#0" />
+            <element signature="e#7826#9292#0" />
+            <element signature="e#9325#9548#0" />
+            <element signature="e#9604#11070#0" />
+            <element signature="e#11101#11324#0" />
+            <element signature="e#11380#12846#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="75" column="79" lean-forward="true" selection-start-line="75" selection-start-column="79" selection-end-line="75" selection-end-column="79" />
         </state>
       </provider>
     </entry>

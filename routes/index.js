@@ -69,15 +69,13 @@ router.get('/business-plan', function(req, res, next) {
 	res.render('business-plan');
 });
 router.get('/anycast-plan', function(req, res, next) {
-	res.setHeader('X-Link', 'https://vying.io/business ; rel="canonical"');
+	res.setHeader('X-Link', 'https://vying.io/anycast-plan ; rel="canonical"');
 	res.render('anycast-plan');
 });
 router.get('/unicast-plan', function(req, res, next) {
-	res.setHeader('X-Link', 'https://vying.io/business ; rel="canonical"');
+	res.setHeader('X-Link', 'https://vying.io/unicast-plan ; rel="canonical"');
 	res.render('unicast-plan');
 });
-
-
 router.get('/wordpress-plan', function(req, res, next) {
 	res.setHeader('X-Link', 'https://vying.io/wordpress-plan ; rel="canonical"');
 	res.render('wordpress-plan');
