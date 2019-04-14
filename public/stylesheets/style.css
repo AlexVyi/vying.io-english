@@ -308,7 +308,21 @@ article {
   background: #fff;
   box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }
 
+.shadow-dns-wrapper {
+  border-radius: 3px;
+  padding-right: 5px;
+  position: relative;
+  display: block;
+  max-width: 575px;
+  height: 515px;
+  vertical-align: top;
+  background: #fff;
+  box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }
+
 .shadow-wrapper:hover {
+  box-shadow: 2px 2px 6px 0 #294661; }
+
+.shadow-dns-wrapper:hover {
   box-shadow: 2px 2px 6px 0 #294661; }
 
 #shadow-wrapper-center {
@@ -334,6 +348,72 @@ article {
 @media screen and (min-width: 769px) {
   #bestValue {
     margin-top: -15%; } }
+
+@media screen and (max-width: 425px) {
+  #shadow-wrapper-center {
+    border-radius: 2px;
+    padding-right: 5px;
+    position: relative;
+    display: block;
+    max-width: 575px;
+    height: 780px;
+    vertical-align: top;
+    background: #fff;
+    box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }
+  .shadow-dns-wrapper {
+    border-radius: 3px;
+    padding-right: 5px;
+    position: relative;
+    display: block;
+    max-width: 575px;
+    height: 480px;
+    vertical-align: top;
+    background: #fff;
+    box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); } }
+
+@media screen and (max-width: 375px) {
+  #shadow-wrapper-center {
+    border-radius: 2px;
+    padding-right: 5px;
+    position: relative;
+    display: block;
+    max-width: 575px;
+    height: 808px;
+    vertical-align: top;
+    background: #fff;
+    box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }
+  .shadow-dns-wrapper {
+    border-radius: 3px;
+    padding-right: 5px;
+    position: relative;
+    display: block;
+    max-width: 575px;
+    height: 471px;
+    vertical-align: top;
+    background: #fff;
+    box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); } }
+
+@media screen and (max-width: 320px) {
+  #shadow-wrapper-center {
+    border-radius: 2px;
+    padding-right: 5px;
+    position: relative;
+    display: block;
+    max-width: 575px;
+    height: 840px;
+    vertical-align: top;
+    background: #fff;
+    box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); }
+  .shadow-dns-wrapper {
+    border-radius: 3px;
+    padding-right: 5px;
+    position: relative;
+    display: block;
+    max-width: 575px;
+    height: 500px;
+    vertical-align: top;
+    background: #fff;
+    box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, 0.1); } }
 
 address {
   font-family: Titillium Web, sans-serif; }
